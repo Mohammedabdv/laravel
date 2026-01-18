@@ -1,0 +1,23 @@
+
+    /* ألوان الأزرار البرتقالية */
+    .btn-orange {
+        background-color: #ff7f50; /* برتقالي */
+        color: #fff;
+        border: none;
+        transition: 0.3s;
+    }
+    .btn-orange:hover {
+        background-color: #ff6333;
+        color: #fff;
+    }
+
+    .btn-outline-orange {
+        background-color: transparent;
+        color: #ff7f50;
+        border: 2px solid #ff7f50;
+        transition: 0.3s;
+    }
+    .btn-outline-orange:hover {
+        background-color: #ff7f50;
+        color: #fff;
+    }

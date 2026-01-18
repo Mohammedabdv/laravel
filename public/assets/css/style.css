@@ -1,0 +1,182 @@
+.single-product-item {
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.single-product-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.product-image {
+    overflow: hidden;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.product-image img {
+    height: 260px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.product-image img:hover {
+    transform: scale(1.08);
+}
+
+.product-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0 5px 0;
+}
+
+.product-description {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 12px;
+    min-height: 40px; /* نفس الطول لكل الوصف */
+}
+
+.product-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0b0300;
+    margin-bottom: 15px;
+    background: #ffecec;
+    padding: 10px; /* مسافة متساوية من الأعلى والأسفل واليمين واليسار */
+    border-radius: 18px;
+    display: inline-block;
+    align-items: center;
+    gap: 4px; /* مسافة بسيطة بين الدولار والرقم */
+}
+
+.cart-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: #28a745;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-btn:hover {
+    background: #218838;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.cart-btn i {
+    font-size: 1.1rem;
+}
+
+.product-section {
+    background: #fff;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* سلايدر الصور */
+.carousel-inner img {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+    border-radius: 12px;
+    background: #f9f9f9;
+}
+
+.carousel-indicators button {
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.carousel-indicators .active {
+    background-color: #ff6600;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-size: 100% 100%;
+    filter: invert(1);
+}
+
+/* تفاصيل المنتج */
+.single-product-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.single-product-pricing {
+    font-size: 26px;
+    font-weight: 600;
+    color: #28a745;
+    margin-bottom: 20px;
+}
+
+.single-product-content p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* زر الكارت */
+.product-price {
+    font-size: 1.2rem; /* حجم الرقم */
+    font-weight: bold;
+    color: #0c0c0c;
+    background: #ffecec;
+    padding: 6px 12px;
+    border-radius: 8px;
+    display: inline-flex; /* استخدم flex لجعل الدولار بجانب الرقم */
+    align-items: center;
+    gap: 2px; /* مسافة صغيرة بين الدولار والرقم */
+    margin-bottom: 12px; /* مسافة بين السعر وزر الإضافة */
+}
+
+.product-price .currency {
+    font-size: 0.8rem; /* أصغر من الرقم */
+}
+
+.cart-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: #28a745;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-btn:hover {
+    background: #218838;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.cart-btn i {
+    font-size: 1.1rem;
+}
+
+
