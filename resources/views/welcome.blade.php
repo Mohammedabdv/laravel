@@ -9,7 +9,7 @@
                 <div class="col-lg-8 offset-lg-2 text-center">
                     <div class="section-title">
                         <h3><span class="orange-text">اقسام</span> الموقع</h3>
-                        <p>متعة التسوق في متجرنا</p>
+                        <p>متعة التسوق في </p>
                     </div>
                 </div>
             </div>
