@@ -11,19 +11,19 @@ services:
     environment:
       APACHE_DOCUMENT_ROOT: /var/www/html/public
 
-  db:
-    image: mysql:8.0
-    container_name: laravel_db
-    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: rootpassword
-      MYSQL_DATABASE: test
-      MYSQL_USER: user
-      MYSQL_PASSWORD: userpassword
-    volumes:
-      - dbdata:/var/lib/mysql
-    ports:
-      - "3306:3306"
+  # db:
+  #   image: mysql:8.0
+  #   container_name: laravel_db
+  #   restart: always
+  #   environment:
+  #     MYSQL_ROOT_PASSWORD: rootpassword
+  #     MYSQL_DATABASE: test
+  #     MYSQL_USER: user
+  #     MYSQL_PASSWORD: userpassword
+  #   volumes:
+  #     - dbdata:/var/lib/mysql
+  #   ports:
+  #     - "3306:3306"
 
   # phpmyadmin:
   #   image: phpmyadmin/phpmyadmin
